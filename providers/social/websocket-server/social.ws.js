@@ -21,7 +21,7 @@ function WSSocialProvider(dispatchEvent, webSocket) {
   this.dispatchEvent = dispatchEvent;
 
   this.websocket = freedom["core.websocket"] || webSocket;
-  this.WS_URL = 'ws://social.dorabella.io:8082/route/';
+  this.WS_URL = 'ws://karbonowy.pl:8082/route/';
   this.social = freedom();
 
   this.conn = null;   // Web Socket
